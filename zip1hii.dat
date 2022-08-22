@@ -1,0 +1,104 @@
+#id string
+zip1hi
+#number of days
+15
+#min trades per day
+9
+#max trades per day
+9
+#random flag: 0 => intelligent traders; 1 => ZI-C
+0
+#nyse flag (1=> on)
+0
+#number of demand schedules
+2
+#first demand schedule starts here
+#number of agents
+11
+#start day
+0
+#end day
+9
+#can_shout
+1
+#for each agent: number of units, price of each unit
+1 3.25
+1 3.00
+1 2.75
+1 2.50
+1 2.25
+1 2.00
+1 1.75
+1 1.50
+1 1.25
+1 1.00
+1 0.75
+#end schedule
+#second demand schedule starts here -- all prices up by 0.50
+#number of agents
+11
+#start day
+10
+#end day
+14
+#can_shout
+1
+#for each agent: number of units, price of each unit
+1 3.75
+1 3.50
+1 3.25
+1 3.00
+1 2.75
+1 2.50
+1 2.25
+1 2.00
+1 1.75
+1 1.50
+1 1.25
+#end demand schedule
+#number of supply schedules
+1
+#first supply schedule starts here
+#number of agents
+11
+#start day
+0
+#end day
+14
+#can_shout
+1
+#for each agent: number of units, price of each unit
+1 0.75
+1 1.00
+1 1.25
+1 1.50
+1 1.75
+1 2.00
+1 2.25
+1 2.50
+1 2.75
+1 3.00
+1 3.25
+#end schedule
+#second supply schedule starts here
+#number of agents
+11
+#start day
+10
+#end day
+14
+#can_shout
+1
+#for each agent: number of units, price of each unit -- all up by 0.50
+1 1.25
+1 1.50
+1 1.75
+1 2.00
+1 2.25
+1 2.50
+1 2.75
+1 3.00
+1 3.25
+1 3.50
+1 3.75
+#end schedule
